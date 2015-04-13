@@ -1,1 +1,1 @@
-worker: python new_lolbot.py
+bot: python new_lolbot.py
