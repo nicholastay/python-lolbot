@@ -1,0 +1,15 @@
+{
+    "apiKey": "Your API Key from Riot Games here",
+    "username": "Your bot's username here",
+    "password": "Your bot's password here",
+    "mainAccountID": "Your main account's summoner ID here (you can get this with the Riot API)",
+    "ip": "Your region's XMPP server's IP, prefrably in numeric - OCE = 192.64.169.22",
+    "port": "This should be 5223 unless your region uses a different port",
+    "status": "A LoL formatted status, example can be found here: http://leagueoflegends.wikia.com/wiki/User_blog:Sevenix/Connecting_to_the_LoL_chat_using_XMPP",
+    "apiRegion": "Your region, eg. oce",
+    "apiRegionSpectateID": "Your region's ID for the current-game API module, eg. OC1",
+    "apiSummonerVer": "The version of summoner module for the API, eg. 1.4",
+    "apiStaticDataVer": "The version of lol-static-data module for the API, 1.2",
+    "apiLeagueVer": "The version of league module for the API, 2.5",
+    "welcomeMessage": "true"
+}
