@@ -57,11 +57,11 @@ import sys
 ################### VARS ##########################
 # open json config
 if os.path.exists('lolbotConfig.json'):
-        with open('lolbotConfig.json') as data_file:
-                data = json.load(data_file)
+	with open('lolbotConfig.json') as data_file:
+		data = json.load(data_file)
 else:
-        print "config does not exist"
-        sys.exit()
+	print "config does not exist"
+	sys.exit()
 
 riotApiKey = data["apiKey"]
 riotApiRegion = data["apiRegion"]
@@ -128,10 +128,10 @@ class LolBot(ClientXMPP):
 			
 			parsedMsg = msg['body'].split()
 			firstWord = parsedMsg[0]
-            
-            if "!hello" in firstWord:
-                self.send_message(mto=msg['from'].bare, mbody="Hello!", mtype='groupchat')
-            
+	    
+			if "!hello" in firstWord:
+				self.send_message(mto=msg['from'].bare, mbody="Hello!", mtype='groupchat')
+	    
 			if "!ping" in firstWord:
 				self.send_message(mto=msg['from'].bare, mbody="Pong!", mtype='groupchat')
 
@@ -251,7 +251,7 @@ class LolBot(ClientXMPP):
 				if len(str(msg['body']).split()) < 3:
 					msg.reply("Not enough arguments.").send()
 				else:
-					writeCommandFile = open('lolbotCommands.txt', 'w')
+					writeCommandFile = open('lolbotCommands.txt', 'a')
 					writeCommandFile.write(((msg['body'])[7:]) + '\n')
 					msg.reply('Command ' + ((msg['body']).split())[1] + " has been added.").send()
 
@@ -423,7 +423,7 @@ if __name__ == '__main__':
 	# Get champion list as json, one time on startup
 	championListByID = RiotApiGetChampionList()
 
-        # Get admin's name
+	# Get admin's name
 	mainAccName = RiotApiGetName(mainAcc)
 	
 	if xmpp.connect((xmppLoLIP, xmppLoLPort), use_ssl=True):
