@@ -34,3 +34,9 @@ Admin Commands:
 What is Auto Mode?
 -------------
 When a summoner goes in game and they have registered themselved (or the admin has registered them as an auto user), and they are friends with the bot, the summoner will automatically be messaged gameinfo for their game.
+
+On the OCE (Oceania) server?
+-------------
+Jump right in and add 'n2468txd' as a friend in League of Legends! Feel free to use the PM commands and add the bot to your chatroom. The custom commands however, will be my own custom commands and these commands will be kept private (you can try and look for those commands :P).
+
+A kind note: please do not abuse the commands and the system as the Riot API can only handle so many requests. If the system is abused I will be forced to restrict this bot to select people and it will not be left open to public.
