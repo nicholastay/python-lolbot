@@ -22,6 +22,7 @@ Group Chat Commands:
 -------------
 * All the above commands, with an exclamation point in front, eg hello = !hello.
 * Any custom commands added with the addcom command (covered below). The custom commands will just return with text.
+* The bot will automatically join any group chat given.
 
 Admin Commands:
 -------------
@@ -40,3 +41,12 @@ On the OCE (Oceania) server?
 Jump right in and add 'n2468txd' as a friend in League of Legends! Feel free to use the PM commands and add the bot to your chatroom. The custom commands however, will be my own custom commands and these commands will be kept private (you can try and look for those commands :P).
 
 A kind note: please do not abuse the commands and the system as the Riot API can only handle so many requests. If the system is abused I will be forced to restrict this bot to select people and it will not be left open to public.
+
+
+
+
+
+
+Riot API disclaimer
+--------------
+[The title of Your Application] isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
